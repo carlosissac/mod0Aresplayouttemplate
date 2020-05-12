@@ -1,0 +1,16 @@
+
+.sf-container {
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+
+.sticky-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*background-color: #343a40!important;*/
+    text-align: right;
+    padding: 0px;
+  }
+  
