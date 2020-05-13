@@ -1,7 +1,35 @@
 
+.nav {
+    position: fixed;
+  }
+
+.body {
+    overflow: auto;
+  }
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#about-body-row-bottom {
+    padding: 4rem;
+}
+
+#about-img {
+    /*style="height: 200px; width: 100%; display: block;"*/
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+
 .sf-container {
-    padding-right: 5px;
-    padding-bottom: 2px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.2rem;
 }
 
 .sticky-footer {
@@ -9,8 +37,41 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    /*background-color: #343a40!important;*/
+    background-color: #3EC1D3;
     text-align: right;
     padding: 0px;
   }
   
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+
+    #about-body-row-top {
+        padding: 0rem;
+    }
+}
+
+/*Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+    #about-body-row-top {
+        padding: 0rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    #about-body-row-top {
+        padding: 1rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+
+    #about-body-row-top {
+        padding: 1rem;
+    }
+
+}
+    
